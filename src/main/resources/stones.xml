@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gem xmlns="https://example.com/gem" xsi:schemaLocation="https://example.com/gem stones_schema.xsd"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <gem>
+        <name>diamond</name>
+        <preciousness>PRECIOUS</preciousness>
+        <miningLocation>South Africa</miningLocation>
+        <visualParameters>
+            <transparency>CRYSTAL_CLEAR</transparency>
+            <color>BLUE</color>
+            <facesNumber>128</facesNumber>
+        </visualParameters>
+        <stoneWeight>3.5</stoneWeight>
+    </gem>
+    <gem>
+        <name>garnet</name>
+        <preciousness>PRECIOUS</preciousness>
+        <miningLocation>Russia, Tomsk</miningLocation>
+        <visualParameters>
+            <transparency>TRANSPARENT</transparency>
+            <color>RED</color>
+            <facesNumber>48</facesNumber>
+        </visualParameters>
+        <stoneWeight>12.8</stoneWeight>
+    </gem>
+    <gem>
+        <name>granite</name>
+        <preciousness>SEMIPRECIOUS</preciousness>
+        <miningLocation>Russia, Omsk</miningLocation>
+        <visualParameters>
+            <transparency>OPAQUE</transparency>
+            <color>GRAY</color>
+            <facesNumber>6</facesNumber>
+        </visualParameters>
+        <stoneWeight>39.2</stoneWeight>
+    </gem>
+    <gem>
+        <name>feldspar</name>
+        <preciousness>SEMIPRECIOUS</preciousness>
+        <miningLocation>Russia, Tver</miningLocation>
+        <visualParameters>
+            <transparency>OPAQUE</transparency>
+            <color>GREEN</color>
+            <facesNumber>8</facesNumber>
+        </visualParameters>
+        <stoneWeight>9.76</stoneWeight>
+    </gem>
+</gem>

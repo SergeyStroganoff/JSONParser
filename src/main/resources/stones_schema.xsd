@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML Schema Generated on Mon Oct 04 2021 21:30:33 GMT+0300 (Москва, стандартное время) -->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="https://example.com/gem" version="1.0"
+        xmlns:xs="https://example.com/gem"
+        elementFormDefault="qualified">
+    <element name="gem">
+        <complexType>
+            <sequence>
+                <element name="gem"
+                         type="xs:Gem"
+                         minOccurs="2"
+                         maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <complexType name="Gem">
+        <sequence>
+            <element name="name" type="xs:GemName"/>
+            <element name="preciousness" type="xs:Preciousness"/>
+            <element name="miningLocation" type="string"/>
+            <element name="visualParameters" type="xs:VisualParameters"/>
+            <element name="stoneWeight" type="double"/>
+        </sequence>
+    </complexType>
+
+    <simpleType name="GemName">
+        <restriction base="string">
+            <pattern value="([a-zA-z]{3,12})"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="Preciousness">
+        <restriction base="string">
+            <enumeration value="PRECIOUS"/>
+            <enumeration value="SEMIPRECIOUS"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="Color">
+        <restriction base="string">
+            <enumeration value="YELLOW"/>
+            <enumeration value="RED"/>
+            <enumeration value="GREEN"/>
+            <enumeration value="BLUE"/>
+            <enumeration value="GRAY"/>
+            <enumeration value="CYAN"/>
+            <enumeration value="BLACK"/>
+            <enumeration value="MAGENTA"/>
+            <enumeration value="NOT_DEFINE"/>
+        </restriction>
+    </simpleType>
+
+    <complexType name="VisualParameters">
+        <sequence>
+            <element name="transparency" type="xs:Transparency"/>
+            <element name="color" type="xs:Color"/>
+            <element name="facesNumber" type="positiveInteger"/>
+        </sequence>
+    </complexType>
+
+    <simpleType name="Transparency">
+        <restriction base="string">
+            <enumeration value="TRANSPARENT"/>
+            <enumeration value="CRYSTAL_CLEAR"/>
+            <enumeration value="TRANSLUCENT"/>
+            <enumeration value="OPAQUE"/>
+        </restriction>
+
+    </simpleType>
+</schema>
