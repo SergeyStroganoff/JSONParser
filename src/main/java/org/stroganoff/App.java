@@ -17,7 +17,7 @@ public class App {
 
     public static final String FILE_PATH = "src/main/resources/stones.json";
     public static final String XML_FILE = "/stones.xml";
-    public static Logger logger = Logger.getLogger(App.class);
+    public static final Logger logger = Logger.getLogger(App.class);
 
     public static void main(String[] args) {
         XMLConverter xmlConverter = new XMLConverter();

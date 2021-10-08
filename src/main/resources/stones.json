@@ -1,0 +1,53 @@
+{
+  "stones": {
+    "xmlns": "https://example.com/gem",
+    "xsi:schemaLocation": "https://example.com/gem stones_schema.xsd",
+    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "gem": [
+      {
+        "stoneWeight": 3.5,
+        "preciousness": "PRECIOUS",
+        "miningLocation": "South Africa",
+        "name": "diamond",
+        "visualParameters": {
+          "color": "BLUE",
+          "facesNumber": 128,
+          "transparency": "CRYSTAL_CLEAR"
+        }
+      },
+      {
+        "stoneWeight": 12.8,
+        "preciousness": "PRECIOUS",
+        "miningLocation": "Russia, Tomsk",
+        "name": "garnet",
+        "visualParameters": {
+          "color": "RED",
+          "facesNumber": 48,
+          "transparency": "TRANSPARENT"
+        }
+      },
+      {
+        "stoneWeight": 39.2,
+        "preciousness": "SEMIPRECIOUS",
+        "miningLocation": "Russia, Omsk",
+        "name": "granite",
+        "visualParameters": {
+          "color": "GRAY",
+          "facesNumber": 6,
+          "transparency": "OPAQUE"
+        }
+      },
+      {
+        "stoneWeight": 9.76,
+        "preciousness": "SEMIPRECIOUS",
+        "miningLocation": "Russia, Tver",
+        "name": "feldspar",
+        "visualParameters": {
+          "color": "GREEN",
+          "facesNumber": 8,
+          "transparency": "OPAQUE"
+        }
+      }
+    ]
+  }
+}
