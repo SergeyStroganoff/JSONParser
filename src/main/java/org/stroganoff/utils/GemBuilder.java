@@ -40,6 +40,4 @@ public class GemBuilder {
         int facesNumber = facesNumberPrimitive.getAsInt();
         return new VisualParameters(color, transparency, facesNumber);
     }
-
-
 }
