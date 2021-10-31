@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<gem xmlns="https://example.com/gem" xsi:schemaLocation="https://example.com/gem stones_schema.xsd"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<stones xmlns="https://example.com/gem" xsi:schemaLocation="https://example.com/gem stones_schema.xsd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <gem>
         <name>diamond</name>
         <preciousness>PRECIOUS</preciousness>
@@ -45,4 +45,4 @@
         </visualParameters>
         <stoneWeight>9.76</stoneWeight>
     </gem>
-</gem>
+</stones>

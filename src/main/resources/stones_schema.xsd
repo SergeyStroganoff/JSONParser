@@ -4,7 +4,7 @@
         targetNamespace="https://example.com/gem" version="1.0"
         xmlns:xs="https://example.com/gem"
         elementFormDefault="qualified">
-    <element name="gem">
+    <element name="stones">
         <complexType>
             <sequence>
                 <element name="gem"
